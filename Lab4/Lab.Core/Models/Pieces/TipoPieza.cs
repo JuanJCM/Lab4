@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab.Core.Models.Pieces
 {
-    public enum TipoPiezas
+    public enum TipoPieza
     {
         C,
         T,

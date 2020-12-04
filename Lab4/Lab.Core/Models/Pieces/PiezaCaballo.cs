@@ -5,7 +5,7 @@ using Lab.Core.Interfaces;
 
 namespace Lab.Core.Models.Pieces
 {
-    public class PiezaCaballo : Piezas
+    public class PiezaCaballo : Pieza
     {
         public PiezaCaballo (TipoPieza tipoPiezas, bool esBlanca)
             : base(tipoPiezas, esBlanca)

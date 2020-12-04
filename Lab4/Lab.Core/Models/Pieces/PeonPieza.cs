@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab.Core.Models.Pieces
 {
-    public class PeonPieza : Piezas
+    public class PeonPieza : Pieza
     {
         public PeonPieza(TipoPieza tipoPiezas, bool esBlanca)
             : base(tipoPiezas, esBlanca)

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj": {}
+    "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ejzp_\\Source\\Repos\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj": {
+    "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ejzp_\\Source\\Repos\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj",
         "projectName": "Lab.Core",
-        "projectPath": "C:\\Users\\ejzp_\\Source\\Repos\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj",
-        "packagesPath": "C:\\Users\\ejzp_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ejzp_\\Source\\Repos\\Lab4\\Lab4\\Lab.Core\\obj\\",
+        "projectPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj",
+        "packagesPath": "C:\\Users\\Juan Carranza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ejzp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juan Carranza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +29,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -54,21 +55,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj": {
+    "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj",
         "projectName": "Lab4.Infrastructure",
-        "projectPath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\ejzp_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Juan Carranza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ejzp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juan Carranza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,10 +84,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj": {
-                "projectPath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj"
+              "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj": {
+                "projectPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj"
               }
             }
           }
@@ -96,7 +99,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
@@ -118,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
