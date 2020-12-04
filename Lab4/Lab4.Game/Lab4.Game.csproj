@@ -5,4 +5,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Lab.Core\Lab.Core.csproj" />
+    <ProjectReference Include="..\Lab4.Infrastructure\Lab4.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -4,6 +4,6 @@ namespace Lab.Core.Interfaces
 {
     public interface IMovementSerializer
     {
-        Movimientos SerializeMovement(string data);
+        Movimiento SerializeMovement(string data);
     }
 }

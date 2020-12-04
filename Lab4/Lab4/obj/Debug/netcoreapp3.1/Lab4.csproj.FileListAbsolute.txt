@@ -17,3 +17,4 @@ C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.RazorTar
 C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.dll
 C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.pdb
 C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.genruntimeconfig.cache
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csprojAssemblyReference.cache

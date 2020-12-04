@@ -7,10 +7,7 @@ namespace Lab.Core.Interfaces
 {
     public interface IGameEngine
     {
-        void Start();
+        void ExecuteMovement(Movimiento movement);
 
-        void ExecuteMovement(Movimientos movement);
-
-        void Stop();
     }
 }

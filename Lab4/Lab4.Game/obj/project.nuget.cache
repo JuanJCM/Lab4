@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lVNPJ2AEKN5U54+wAYd8ae2pwtan+tu6JhbcNEm2wVLwmvH0HdjBEO+GytlkC+GAWy754A8Tu8gbKa0izFcUhA==",
+  "dgSpecHash": "qDg7Lt+fEnj2Nra6iiOy5A//sK4lwlh/kAvffbmVPfttTuBxEfg9SyI/TTtVC0jR50dAs0D8DNnh09NK5VWg1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Game\\Lab4.Game.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ejzp_\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -15,5 +15,9 @@ namespace Lab.Core.Models.Pieces
             EsPiezaBlanca = esBlanca;
         }
 
+        public virtual void Move(int[,] board, Movimiento movement)
+        {
+           board[(int)movement.NewXPosition, movement.NewYPosition] = 1;
+        }
     }
 }

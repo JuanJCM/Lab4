@@ -1,30 +1,105 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Lab.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Lab.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lab.Core.dll": {}
+        }
+      },
+      "Lab4.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Lab.Core": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Lab4.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Lab4.Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Lab.Core/1.0.0": {
+      "type": "project",
+      "path": "../Lab.Core/Lab.Core.csproj",
+      "msbuildProject": "../Lab.Core/Lab.Core.csproj"
+    },
+    "Lab4.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Lab4.Infrastructure/Lab4.Infrastructure.csproj",
+      "msbuildProject": "../Lab4.Infrastructure/Lab4.Infrastructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Lab.Core >= 1.0.0",
+      "Lab4.Infrastructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Juan Carranza\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ejzp_\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Game\\Lab4.Game.csproj",
+      "projectUniqueName": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Game\\Lab4.Game.csproj",
       "projectName": "Lab4.Game",
-      "projectPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Game\\Lab4.Game.csproj",
-      "packagesPath": "C:\\Users\\Juan Carranza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Game\\obj\\",
+      "projectPath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Game\\Lab4.Game.csproj",
+      "packagesPath": "C:\\Users\\ejzp_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Game\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Juan Carranza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ejzp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -36,7 +111,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj": {
+              "projectPath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj"
+            },
+            "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -47,6 +130,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -62,7 +146,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -10,14 +10,14 @@ namespace Lab4.Infrastructure.Serializers
 {
     public class JsonFileGameSerializer : IMovementSerializer
     {
-        public Movimientos SerializeMovement(string data)
+        public Movimiento SerializeMovement(string data)
         {
             if (string.IsNullOrEmpty(data))
             {
                 throw new ArgumentNullException();
             }
 
-            return JsonConvert.DeserializeObject<Movimientos>(data);
+            return JsonConvert.DeserializeObject<Movimiento>(data);
         }
     }
 }
