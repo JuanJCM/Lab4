@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Lab.Core.Models.Pieces
 {
-    public abstract class Piezas
+    public abstract class Pieza
     {
-        public readonly TipoPiezas Pieza;
+        public readonly TipoPieza pieza;
         public bool EsPiezaBlanca;
 
-        public Piezas(TipoPiezas tipoPiezas, bool esBlanca)
+        public Pieza(TipoPieza tipoPiezas, bool esBlanca)
         {
-            Pieza = tipoPiezas;
+            pieza = tipoPiezas;
             EsPiezaBlanca = esBlanca;
         }
 

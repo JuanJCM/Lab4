@@ -7,7 +7,7 @@ namespace Lab.Core.Models.Pieces
 {
     public class PiezaCaballo : Piezas
     {
-        public PiezaCaballo (TipoPiezas tipoPiezas, bool esBlanca)
+        public PiezaCaballo (TipoPieza tipoPiezas, bool esBlanca)
             : base(tipoPiezas, esBlanca)
         {
 

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ejzp_\\Source\\Repos\\Lab4\\Lab4\\Lab4\\Lab4.csproj": {}
+    "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4\\Lab4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ejzp_\\Source\\Repos\\Lab4\\Lab4\\Lab4\\Lab4.csproj": {
+    "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4\\Lab4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ejzp_\\Source\\Repos\\Lab4\\Lab4\\Lab4\\Lab4.csproj",
+        "projectUniqueName": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4\\Lab4.csproj",
         "projectName": "Lab4",
-        "projectPath": "C:\\Users\\ejzp_\\Source\\Repos\\Lab4\\Lab4\\Lab4\\Lab4.csproj",
-        "packagesPath": "C:\\Users\\ejzp_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ejzp_\\Source\\Repos\\Lab4\\Lab4\\Lab4\\obj\\",
+        "projectPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4\\Lab4.csproj",
+        "packagesPath": "C:\\Users\\Juan Carranza\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ejzp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Juan Carranza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +29,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -57,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
