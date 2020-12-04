@@ -4,7 +4,6 @@ C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Game\bin\Debug\netcoreapp3.1\Lab4.Gam
 C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Game\bin\Debug\netcoreapp3.1\Lab4.Game.runtimeconfig.dev.json
 C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Game\bin\Debug\netcoreapp3.1\Lab4.Game.dll
 C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Game\bin\Debug\netcoreapp3.1\Lab4.Game.pdb
-C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Game\obj\Debug\netcoreapp3.1\Lab4.Game.csprojAssemblyReference.cache
 C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Game\obj\Debug\netcoreapp3.1\Lab4.Game.AssemblyInfoInputs.cache
 C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Game\obj\Debug\netcoreapp3.1\Lab4.Game.AssemblyInfo.cs
 C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Game\obj\Debug\netcoreapp3.1\Lab4.Game.csproj.CoreCompileInputs.cache

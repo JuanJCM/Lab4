@@ -3,3 +3,15 @@ C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\obj\Debug\netcoreapp3.
 C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\obj\Debug\netcoreapp3.1\Lab4.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\obj\Debug\netcoreapp3.1\Lab4.Infrastructure.AssemblyInfo.cs
 C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\obj\Debug\netcoreapp3.1\Lab4.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\bin\Debug\netcoreapp3.1\Lab4.Infrastructure.exe
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\bin\Debug\netcoreapp3.1\Lab4.Infrastructure.deps.json
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\bin\Debug\netcoreapp3.1\Lab4.Infrastructure.runtimeconfig.json
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\bin\Debug\netcoreapp3.1\Lab4.Infrastructure.runtimeconfig.dev.json
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\bin\Debug\netcoreapp3.1\Lab4.Infrastructure.dll
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\bin\Debug\netcoreapp3.1\Lab4.Infrastructure.pdb
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\bin\Debug\netcoreapp3.1\Lab.Core.pdb
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\obj\Debug\netcoreapp3.1\Lab4.Infrastructure.csproj.CopyComplete
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\obj\Debug\netcoreapp3.1\Lab4.Infrastructure.dll
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\obj\Debug\netcoreapp3.1\Lab4.Infrastructure.pdb
+C:\Users\ejzp_\source\repos\Lab4\Lab4\Lab4.Infrastructure\obj\Debug\netcoreapp3.1\Lab4.Infrastructure.genruntimeconfig.cache

@@ -2,7 +2,7 @@
 
 namespace Lab.Core.Models
 {
-    public class Movement
+    public class Movimientos
     {
         public TipoPiezas Piece { get; set; }
 
