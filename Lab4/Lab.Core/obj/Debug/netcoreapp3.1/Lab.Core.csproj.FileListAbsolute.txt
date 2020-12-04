@@ -1,0 +1,9 @@
+C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab.Core\bin\Debug\netcoreapp3.1\Lab.Core.deps.json
+C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab.Core\bin\Debug\netcoreapp3.1\Lab.Core.dll
+C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab.Core\bin\Debug\netcoreapp3.1\Lab.Core.pdb
+C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab.Core\obj\Debug\netcoreapp3.1\Lab.Core.csprojAssemblyReference.cache
+C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab.Core\obj\Debug\netcoreapp3.1\Lab.Core.AssemblyInfoInputs.cache
+C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab.Core\obj\Debug\netcoreapp3.1\Lab.Core.AssemblyInfo.cs
+C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab.Core\obj\Debug\netcoreapp3.1\Lab.Core.csproj.CoreCompileInputs.cache
+C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab.Core\obj\Debug\netcoreapp3.1\Lab.Core.dll
+C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab.Core\obj\Debug\netcoreapp3.1\Lab.Core.pdb

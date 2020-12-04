@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Lab.Models;
+using Lab.Core.Models;
 
 namespace Lab.Core.Interfaces
 {
@@ -9,7 +9,7 @@ namespace Lab.Core.Interfaces
     {
         void Start();
 
-        void ExecuteMovement(Movement movement);
+        void ExecuteMovement(Movimientos movement);
 
         void Stop();
     }
