@@ -1,6 +1,6 @@
 ﻿using Lab.Core.Models;
 
-namespace Chess.Core.Interfaces
+namespace Lab.Core.Interfaces
 {
     public interface IMovementSerializer
     {

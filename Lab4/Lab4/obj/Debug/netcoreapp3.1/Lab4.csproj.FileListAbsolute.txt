@@ -6,7 +6,6 @@ C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.runtimec
 C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.runtimeconfig.dev.json
 C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.dll
 C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\bin\Debug\netcoreapp3.1\Lab4.pdb
-C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csprojAssemblyReference.cache
 C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfoInputs.cache
 C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.AssemblyInfo.cs
 C:\Users\ejzp_\Source\Repos\Lab4\Lab4\Lab4\obj\Debug\netcoreapp3.1\Lab4.csproj.CoreCompileInputs.cache
