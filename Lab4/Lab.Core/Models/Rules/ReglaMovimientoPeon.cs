@@ -1,15 +1,16 @@
 ﻿using Lab.Core.Models.Pieces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Lab.Core.Models.Rules
 {
     class ReglaMovimientoPeon : ReglasBase
     {
-        public override bool Match(Pieza pieza)
+        public override bool Match(Pieza _pieza)
         {
-            return pieza.TipoPieza = TipoPieza.P;
+            return _pieza.pieza == TipoPieza.P;
         }
 
         public override bool MovimientoValido(int[,] board, Pieza piece, Movimiento movement)
@@ -25,7 +26,7 @@ namespace Lab.Core.Models.Rules
         private object GetBlackValidResults(Pieza piece, Movimiento movement)
         {
             var validResults = new List<int>();
-            if (piece.IsWhitePiece)
+            if (piece.EsPiezaBlanca)
             {
                 return Enumerable.Empty<int>();
             }
@@ -42,7 +43,7 @@ namespace Lab.Core.Models.Rules
         private object GetWhiteValidResults(Pieza piece, Movimiento movement)
         {
             var validResults = new List<int>();
-            if (!piece.IsWhitePiece)
+            if (!piece.EsPiezaBlanca)
             {
                 return Enumerable.Empty<int>();
             }
