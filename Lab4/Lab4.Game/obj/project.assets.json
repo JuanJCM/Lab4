@@ -87,19 +87,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ejzp_\\.nuget\\packages\\": {}
+    "C:\\Users\\Juan Carranza\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Game\\Lab4.Game.csproj",
+      "projectUniqueName": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Game\\Lab4.Game.csproj",
       "projectName": "Lab4.Game",
-      "projectPath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Game\\Lab4.Game.csproj",
-      "packagesPath": "C:\\Users\\ejzp_\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Game\\obj\\",
+      "projectPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Game\\Lab4.Game.csproj",
+      "packagesPath": "C:\\Users\\Juan Carranza\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Game\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ejzp_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Juan Carranza\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -111,13 +115,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj": {
-              "projectPath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj"
+            "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj": {
+              "projectPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab.Core\\Lab.Core.csproj"
             },
-            "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj"
+            "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj"
             }
           }
         }
@@ -130,7 +133,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -146,7 +148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
