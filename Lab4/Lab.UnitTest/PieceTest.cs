@@ -15,5 +15,14 @@ namespace Lab.UnitTest
             Assert.Equal(movement.executeMovement); 
 
         }
+
+        [Theory]
+        [InlineData()]
+        public void New_Item_Succeeds()
+        {
+            var piece = new PieceFactory();
+            Assert.True(piece == true);
+            Assert.Equal(piece);
+        }
     }
 }

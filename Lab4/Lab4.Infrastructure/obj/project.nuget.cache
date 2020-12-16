@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+2TL76ErJRA7oD8mNPzefIXU27s89ovJwJjhTJqOWfPm+1Hf29pTk/6UvAc8w+Zx8e0YndlRYwwqQ/qvsp97EA==",
+  "dgSpecHash": "0pWqkftr976rgIYuJ9QldqNNrie3tykD+T+XZ9oLnLngmP4ck9JkdXD+bg/oORdQslqVz4oyz4XjX4JItcDh7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ejzp_\\source\\repos\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Juan Carranza\\Documents\\GitHub\\Lab4\\Lab4\\Lab4.Infrastructure\\Lab4.Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ejzp_\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Juan Carranza\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
